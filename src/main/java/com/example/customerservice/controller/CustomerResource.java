@@ -28,5 +28,5 @@ public interface CustomerResource {
     ResponseEntity<CustomerTagWrapperDto> groupCustomersByTag();
 
     @GetMapping("/group/tag/{tag}")
-    ResponseEntity<CustomerTagDto> groupCustomersByTag(@PathVariable String tag);
+    ResponseEntity<CustomerTagDto> getCustomersByTag(@PathVariable String tag);
 }

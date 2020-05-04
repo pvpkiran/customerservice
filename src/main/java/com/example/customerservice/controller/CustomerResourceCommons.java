@@ -50,7 +50,7 @@ public abstract class CustomerResourceCommons implements CustomerResource {
     }
 
     @Override
-    public ResponseEntity<CustomerTagDto> groupCustomersByTag(String tag)
+    public ResponseEntity<CustomerTagDto> getCustomersByTag(String tag)
     {
         final CustomerTagDto customerTagDto = customerService.getCustomersByTag(tag);
         return ResponseEntity.ok(customerTagDto);
