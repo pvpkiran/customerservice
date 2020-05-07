@@ -4,7 +4,7 @@
 	<property name="LOG_PATTERN" value="%date %level [%thread] %logger{40} %msg %X%n" />
 	<property name="LOG_BASEPATH" value="/var/log/applications/customer-service/customer-service"/>
 
-	<logger name="de.bo1.service">
+	<logger name="com.example.service">
 		<level value="info" />
 	</logger>
 
