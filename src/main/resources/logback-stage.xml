@@ -20,7 +20,7 @@
         <appender-ref ref="fileAppender"/>
     </root>
 
-    <logger name="de.bo1.service">
+    <logger name="com.example.service">
         <level value="debug"/>
     </logger>
 
